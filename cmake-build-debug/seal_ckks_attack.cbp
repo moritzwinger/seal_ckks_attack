@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="seal_ckks_attack"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="attack_demo">
+				<Option output="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/attack_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_SEAL_BFV"/>
+					<Add option="-DHAVE_SEAL_CKKS"/>
+					<Add directory="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/include"/>
+					<Add directory="/usr/local/include/SEAL-3.6"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 attack_demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="attack_demo/fast">
+				<Option output="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/attack_demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_SEAL_BFV"/>
+					<Add option="-DHAVE_SEAL_CKKS"/>
+					<Add directory="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/include"/>
+					<Add directory="/usr/local/include/SEAL-3.6"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 attack_demo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ckks_attack">
+				<Option output="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/libckks_attack.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_SEAL_BFV"/>
+					<Add option="-DHAVE_SEAL_CKKS"/>
+					<Add directory="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/include"/>
+					<Add directory="/usr/local/include/SEAL-3.6"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 ckks_attack"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ckks_attack/fast">
+				<Option output="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/libckks_attack.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_SEAL_BFV"/>
+					<Add option="-DHAVE_SEAL_CKKS"/>
+					<Add directory="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/include"/>
+					<Add directory="/usr/local/include/SEAL-3.6"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 ckks_attack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/include/eval.h">
+			<Option target="ckks_attack"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/include/seal_utils.h">
+			<Option target="ckks_attack"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/src/eval.cpp">
+			<Option target="attack_demo"/>
+			<Option target="ckks_attack"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/src/seal_attack.cpp">
+			<Option target="attack_demo"/>
+			<Option target="ckks_attack"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/src/seal_utils.cpp">
+			<Option target="attack_demo"/>
+			<Option target="ckks_attack"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/../../../../../usr/local/lib/cmake/SEAL-3.6/SEALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/../../../../../usr/local/lib/cmake/SEAL-3.6/SEALConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/../../../../../usr/local/lib/cmake/SEAL-3.6/SEALTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\"/>
+		</Unit>
+		<Unit filename="/Users/mwinger/Desktop/MasterThesis/seal_ckks_attack/../../../../../usr/local/lib/cmake/SEAL-3.6/SEALTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libckks_attack.a  CMakeFiles/ckks_attack.dir/src/eval.cpp.o CMakeFiles/ckks_attack.dir/src/seal_utils.cpp.o CMakeFiles/ckks_attack.dir/src/seal_attack.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libckks_attack.a

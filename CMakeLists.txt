@@ -12,7 +12,6 @@ endif ()
 
 project(seal_ckks_attack
         VERSION 0.1
-        DESCRIPTION "Optimizer for Fully Homomorphic Encryption (FHE) working on an AST-like (Abstract Syntax Tree) representation of a program"
         LANGUAGES CXX)
 
 #set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/Modules" ${CMAKE_MODULE_PATH})
